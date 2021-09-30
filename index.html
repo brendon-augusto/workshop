@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+<body>
+
+  <header>
+    <div class="container"> 
+      <img id="logo" alt="logo" width="15%" height="auto" src="./images/logosample.jpg" class="not-lazy">
+    </div>
+  </header>
+
+ 
+  <section class="container">
+
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img src="./images/pexels-pixabay-270488.jpg" alt="by pixabay">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/pexels-rodrigo-santos-3888149.jpg" alt="photo by rodrigo-santos">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <h1>Brendon Nogueira </h1>
+        <h6>Estudante em Bacharel Sistemas de Informação</h6>
+        <p>Vou falar um pouco sobre mim, meu nome é Brendon Augusto de Souza Nogueira tenho 22 anos de idade, obtive meu primeiro contato com programação em 2017, foi muito difícil compreender algumas coisas no ínicio me sentia incapaz 
+        </p>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <img src="./images/pexels-pixabay-270408.jpg" alt="photo by pixabay">
+      </div>
+    </div>
+
+    <h2>Habilidades</h2>
+    <div class="row">
+      <div class="col">
+        
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <h2>Formação</h2>
+    <div class="row">
+      <div class="col">
+        <div class="accordion" id="meuacordeon">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Publicidade
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuacordeon">
+              <div class="accordion-body">
+                <p>Trabalho com grid, componentes...</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne"> 
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                Sistemas de Informação
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuacordeon">
+              <div class="accordion-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dicta veniam quibusdam eligendi? Quis, eum? Mollitia molestias facilis ut sint? Voluptas commodi quisquam itaque numquam nostrum praesentium ab mollitia dolorum.</p>
+                
+              </div>
+            </div>
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <p class="text-center">&copy; 2021 - Desenvolvido por Brendon Nogueira</p>
+  </footer>
+    
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"
+    ></script>
+
+    <script>
+        console.log('Hello Word')
+    </script>
+</body>
+</html>
